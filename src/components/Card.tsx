@@ -11,9 +11,7 @@ interface propsType {
 
 const Card: React.FC<propsType> = ({title, desc, img, tags }) => {
   return (
-    <div className='border border-solid border-green-800 w-[300px] sm:w-[350px]' data-aos="flip-left"
-    data-aos-easing="ease-out-cubic"
-    data-aos-duration="2000">
+    <div className='border border-solid border-green-800 w-[350px] sm:w-[350px]'>
         <div>
             <Image className='w-[300px] sm:w-[350px] h-auto'
             src={img}
